@@ -1,17 +1,1 @@
-public class NoSunshine {
-    static void g(){System.out.println("Ain't no sunshine when she's gone");}
-    static void a(){System.out.println("Anytime she goes away");}
-    static void v1(String l1,String l2){g();System.out.println(l1);g();System.out.println(l2);a();System.out.println();}
-    static void v2(){System.out.println("Wonder this time where she's gone\nWonder if she's gone to stay");g();System.out.println("And this house just ain't no home");a();System.out.println();}
-    static void k(){System.out.print("And I know"+", I know".repeat(3)+"\n"+("I know"+", I know".repeat(4)+"\n").repeat(4)+"I know, I know\n\n");}
-    public static void main(String[] args){
-        v1("It's not warm when she's away","And she's always gone too long");
-        v2();
-        k();
-        System.out.println("Hey, I ought to leave young thing alone\nBut ain't no sunshine when she's gone, whoa-whoa");
-        g();System.out.println("Only darkness every day\n");
-        g();System.out.println("And this house just ain't no home\n");
-        a();a();a();a();
-    }
-}
-
+public class NoSunshine{public static void main(String[]a){String g="Ain't no sunshine when she's gone",w="Anytime she goes away",k="I know, I know, I know, I know";System.out.print(g+"\nIt's not warm when she's away\n"+g+"\nAnd she's always gone too long\n"+w+"\n\nWonder this time where she's gone\nWonder if she's gone to stay\n"+g+"\nAnd this house just ain't no home\n"+w+"\n\nAnd "+k+"\n"+(k+", I know\n").repeat(4)+"I know, I know\n\nHey, I ought to leave young thing alone\nBut ain't no sunshine when she's gone, whoa-whoa\n"+g+"\nOnly darkness every day\n\n"+g+"\nAnd this house just ain't no home\n\n"+(w+"\n").repeat(4));}}
